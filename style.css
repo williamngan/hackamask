@@ -76,10 +76,17 @@ strong {
 
 #describe {
   position: absolute;
+  padding-top: 30px;
+  padding-bottom: 50px;
   margin-top: 200px;
   width: 50vw;
   padding-left: 40px;
   padding-right: 40px;
+  background-color: #fff;
+}
+
+#describe .illustration img {
+  width: 70%;
 }
 
 #instruct {
@@ -90,7 +97,7 @@ strong {
 }
 
 #instruct .instruction {
-  margin: 20px auto;
+  margin: 0px auto;
   max-width: 512px;
 }
 
